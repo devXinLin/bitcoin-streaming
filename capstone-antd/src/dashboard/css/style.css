@@ -1,0 +1,59 @@
+.body {
+    background-color: blue
+}
+
+.logo {
+    padding: 4%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    align-content: center;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.nav-side {
+    font-weight: bold;
+    transition: transform .2s;
+}
+.nav-side:hover {
+    transform: scale(1.05);
+}
+
+.nav-side-submenu {
+    font-weight: bold;
+    transition: transform .2s;
+}
+
+.nav-side-submenu:hover {
+    transform: scale(1.05);
+}
+
+.trigger {
+    font-weight: bolder;
+    transition: transform .2s;
+    color: whitesmoke;
+}
+.trigger:hover {
+    transform: scale(1.5);
+}
+
+.nav-top {
+    font-weight: bold;
+    transition: transform .2s;
+    margin-left: 30%
+}
+.nav-top:hover {
+    transform: scale(1.05);
+}
+
+.nav-top2 {
+    font-weight: bold;
+    transition: transform .2s;
+    margin-left: 2%
+}
+.nav-top2:hover {
+    transform: scale(1.05);
+}
+

@@ -1,0 +1,49 @@
+#currency {
+    margin: 2px;
+    font-weight: bold;
+    transition: transform .2s;
+    background-color: gray;;
+    color: whitesmoke;
+}
+#currency:hover {
+    transform: scale(1.05);
+    background-color: #1890FF;
+}
+
+#currency-selected {
+    margin: 2px;
+    font-weight: bold;
+    background-color: #001529;
+    color: whitesmoke;
+}
+
+
+#average-price {
+    font-size: 17px;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#exchangelist_currency {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 4%
+}
+
+#section_content {
+    margin-top: 20px;
+}
+
+#buttonSpan {
+    margin-left: 50px;
+}
+
+#Bitfinex_logo {
+    margin-right: 20px;
+   background-image: url("../img/Bitfinex.png");
+}
