@@ -5,19 +5,17 @@ import Overall_Candlestick_USD from "./Overall_Candlestick_USD";
 import Overall_Candlestick_JPY from "./Overall_Candlestick_JPY";
 // import EUR version of Overall_Candlestick_EUR
 import Overall_Candlestick_EUR from "./Overall_Candlestick_EUR";
-import {Table, Icon, Row, Col, Button, Radio, Affix} from 'antd';
-import { BrowserRouter, Route, Switch, NavLink} from 'react-router-dom';
+import { Row, Col, Button, Affix} from 'antd';
+import { Route, Switch, NavLink} from 'react-router-dom';
 
 export default class Overall_Candlestick extends React.Component {
 
     state = {
         top: 10,
         bottom: 10,
-      }
+      };
 
     render() {
-
-        const ButtonGroup = Button.Group;
 
         return (
             <div>

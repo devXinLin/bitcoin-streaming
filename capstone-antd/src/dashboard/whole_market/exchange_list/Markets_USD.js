@@ -1,7 +1,6 @@
 import React from 'react';
 import "../../css/exchangeList.css";
-import {Table, Row, Col, Button} from 'antd';
-import { Route, Switch, NavLink} from 'react-router-dom';
+import { Table } from 'antd';
 import axios from "axios";
 import io from 'socket.io-client';
 
@@ -227,10 +226,7 @@ export default class Markets_USD extends React.Component {
         const pagination = {
             total: this.state.tDate.length,
             showSizeChanger: true,
-        }
-
-        const ButtonGroup = Button.Group;
-        
+        };
 
         return (
             <div>

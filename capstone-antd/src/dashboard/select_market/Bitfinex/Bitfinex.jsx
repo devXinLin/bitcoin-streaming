@@ -9,7 +9,7 @@ import Candlestick_EUR from "./candlestick/Candlestick_EUR";
 
 import "../../css/exchangeList.css";
 
-import {Table, Icon, Row, Col, Button, Radio, Affix, Avatar} from 'antd';
+import {  Row, Col, Button, Affix } from 'antd';
 import { Switch, Route, NavLink } from 'react-router-dom';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 

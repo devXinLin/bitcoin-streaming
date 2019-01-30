@@ -53,7 +53,7 @@ class Marketing extends Component {
                         </li>
 
                         <li className="nav-item">
-                          <AnchorLink href="#school-features"><a id="top-nav" className="nav-link" href="#">Service</a></AnchorLink>
+                          <AnchorLink href="#service-features"><a id="top-nav" className="nav-link" href="#">Service</a></AnchorLink>
                         </li>
 
                         <li className="nav-item">
@@ -100,7 +100,7 @@ class Marketing extends Component {
                 {/*-----------------------------------------------------------------
                             Second Section - Service Introduction
                 -------------------------------------------------------------------*/}
-                <section id="school-features" className="school-features d-flex">
+                <section id="service-features" className="service-features d-flex">
                   <div className="inner">
                   <Col span={6}>      
                       <div id="service-intro" className="media-body">
@@ -138,56 +138,56 @@ class Marketing extends Component {
                 -------------------------------------------------------------------*/}
               <section id="team-member" className="site-section">
                 <div className="container">
-                  <section className="school-features text-dark d-flex">
+                  <section className="service-features text-dark d-flex">
 
                     <div className="inner">
 
                     <div className="media d-block feature">
                         <Zoom>
-                            <div id="team-member-1"><img></img></div>
+                            <div id="team-member-1"></div>
                         </Zoom>
                         <div className="media-body">
-                          <h3 id="name" className="mt-0">Xin Lin</h3>
+                          <h3 className="mt-0">Xin Lin</h3>
                           <p>Backend Developer<br/>System Tester<br/>Team Leader</p>
                         </div>
                       </div>
 
                       <div className="media d-block feature">
                         <Zoom>
-                        <div id="team-member-2"><img></img></div>
+                        <div id="team-member-2"></div>
                         </Zoom>
                         <div className="media-body">
-                          <h3 id="name" className="mt-0">Zeying Li</h3>
+                          <h3 className="mt-0">Zeying Li</h3>
                           <p>Database administrator<br/>Librarian</p>
                         </div>
                       </div>
 
                       <div className="media d-block feature">
                         <Zoom>
-                            <div id="team-member-3"><img></img></div>
+                            <div id="team-member-3"></div>
                         </Zoom>
                         <div className="media-body">
-                          <h3 id="name" className="mt-0">Feng Yi</h3>
+                          <h3 className="mt-0">Feng Yi</h3>
                           <p>Front-end developer<br/>System tester<br/>UI designer<br/>Coordinator</p>
                         </div>
                       </div>
 
                       <div className="media d-block feature">
                         <Zoom>
-                        <div id="team-member-4"><img></img></div>
+                        <div id="team-member-4"></div>
                         </Zoom>
                         <div className="media-body">
-                          <h3 id="name" className="mt-0">Hao Ma</h3>
+                          <h3 className="mt-0">Hao Ma</h3>
                           <p>Front-end developer<br/>System tester<br/>UI designer<br/>Timer keeper</p>
                         </div>
                       </div>
 
-                        <div id="" className="media d-block feature">
+                        <div className="media d-block feature">
                             <Zoom>
-                                <div id="team-member-5"><img></img></div>
+                                <div id="team-member-5"></div>
                             </Zoom>
                             <div className="media-body">
-                                <h3 id="name" className="mt-0">He Zhao</h3>
+                                <h3 className="mt-0">He Zhao</h3>
                                 <p>Backend developer<br/>System tester<br/>Supporter</p>
                             </div>
                         </div>
@@ -229,7 +229,6 @@ class Marketing extends Component {
             <section id="section-cover" className="section-cover" data-stellar-background-ratio="0.5">
               <div className="container">
                 <div className="row justify-content-center align-items-center intro">
-                  <Zoom><h2>There are hundries of more positive feedbacks, and you can be one of them</h2></Zoom>
                   <p id="secondButton"><NavLink to="/dashboard"><a href="#" className="btn btn-primary">Click to start now, it's free</a></NavLink></p>
                 </div>
               </div>

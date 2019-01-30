@@ -3,14 +3,14 @@ import "../../css/exchangeList.css";
 // import USD version - default
 import Markets_USD from "./Markets_USD";
 
-import {Table, Icon, Row, Col, Button, Radio, Affix} from 'antd';
-import { Switch, Route, NavLink } from 'react-router-dom';
+import { Row, Col, Affix} from 'antd';
+import { Switch, Route } from 'react-router-dom';
 
 export default class Markets extends React.Component {
     state = {
         top: 10,
         bottom: 10,
-      }
+      };
 
     render() {
 

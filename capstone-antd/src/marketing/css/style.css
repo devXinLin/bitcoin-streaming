@@ -117,7 +117,7 @@ header .navbar.navbar-light .nav-link.active {
   background-image: url("../img/person_testimonial_1.jpg");
 }
 
-#school-features {
+#service-features {
   background-image: url("../img/big_image_3.jpg");
   height: 280px;
 }
@@ -254,35 +254,6 @@ header .navbar.navbar-light .nav-link.active {
   background: #fff;
 }
 
-.episodes .episode a {
-  color: #000;
-}
-
-.episodes .episode a:hover {
-  opacity: .7;
-}
-
-.episodes .meta {
-  text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: .2em;
-  color: #cccccc;
-}
-
-.episodes .episode-number {
-  border: 2px solid #0062cc;
-  text-align: center;
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  text-transform: uppercase;
-  line-height: 74px;
-  border-radius: 50%;
-  background: #007bff;
-  color: #fff;
-  font-size: 30px;
-}
-
 .site-hero-innerpage, .site-hero-innerpage .site-hero-inner {
   min-height: 550px;
   height: 50vh;
@@ -292,8 +263,7 @@ header .navbar.navbar-light .nav-link.active {
   padding: 7em 0;
 }
 
-.school-features,
-.school-instructors {
+.service-features {
   background-size: cover;
   background-position: center center;
   position: relative;
@@ -301,8 +271,7 @@ header .navbar.navbar-light .nav-link.active {
 }
 
 @media (min-width: 576px) {
-  .school-features,
-  .school-instructors {
+  .service-features{
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -312,8 +281,7 @@ header .navbar.navbar-light .nav-link.active {
 }
 
 @media (min-width: 576px) {
-  .school-features .inner,
-  .school-instructors .inner {
+  .service-features .inner{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -324,9 +292,7 @@ header .navbar.navbar-light .nav-link.active {
   }
 }
 
-.school-features .feature, .school-features .instructor,
-.school-instructors .feature,
-.school-instructors .instructor {
+.service-features .feature {
   position: relative;
   width: 100%;
   min-height: 1px;
@@ -339,9 +305,7 @@ header .navbar.navbar-light .nav-link.active {
 }
 
 @media (min-width: 576px) {
-  .school-features .feature, .school-features .instructor,
-  .school-instructors .feature,
-  .school-instructors .instructor {
+  .service-features .feature {
     position: relative;
     width: 100%;
     min-height: 1px;
@@ -355,9 +319,7 @@ header .navbar.navbar-light .nav-link.active {
 }
 
 @media (min-width: 768px) {
-  .school-features .feature, .school-features .instructor,
-  .school-instructors .feature,
-  .school-instructors .instructor {
+  .service-features .feature {
     position: relative;
     width: 100%;
     min-height: 1px;
@@ -371,9 +333,7 @@ header .navbar.navbar-light .nav-link.active {
 }
 
 @media (min-width: 992px) {
-  .school-features .feature, .school-features .instructor,
-  .school-instructors .feature,
-  .school-instructors .instructor {
+  .service-features .feature {
     position: relative;
     width: 100%;
     min-height: 1px;
@@ -388,92 +348,74 @@ header .navbar.navbar-light .nav-link.active {
   }
 }
 
-.school-features .feature h3, .school-features .instructor h3,
-.school-instructors .feature h3,
-.school-instructors .instructor h3 {
+.service-features .feature h3 {
   font-size: 18px;
   color: #fff;
 }
 
-.school-features .feature p, .school-features .instructor p,
-.school-instructors .feature p,
-.school-instructors .instructor p {
+.service-features .feature p {
   color: #fff;
   opacity: .5;
 }
 
-.school-features .feature img, .school-features .instructor img,
-.school-instructors .feature img,
-.school-instructors .instructor img {
+.service-features .feature img {
   width: 100px;
   border-radius: 50%;
   margin: 0 auto;
 }
 
-.school-features .feature .icon > span:before, .school-features .instructor .icon > span:before,
-.school-instructors .feature .icon > span:before,
-.school-instructors .instructor .icon > span:before {
+.service-features .feature .icon > span:before {
   font-size: 50px;
   margin-left: 0;
   color: #fff;
 }
 
-.school-features.text-dark.last,
-.school-instructors.text-dark.last {
+.service-features.text-dark.last {
   border-bottom: none;
 }
 
-.school-features.text-dark.last .feature,
-.school-instructors.text-dark.last .feature {
+.service-features.text-dark.last .feature {
   border-bottom: none;
 }
 
 @media (min-width: 992px) {
-  .school-features.text-dark .feature,
-  .school-instructors.text-dark .feature {
+  .service-features.text-dark .feature {
     border-right: 1px solid #e6e6e6;
     border-bottom: 1px solid #e6e6e6;
   }
 }
 
-.school-features.text-dark .feature:last-child,
-.school-instructors.text-dark .feature:last-child {
+.service-features.text-dark .feature:last-child {
   border-right: none;
 }
 
-.school-features.text-dark .feature h3,
-.school-instructors.text-dark .feature h3 {
+.service-features.text-dark .feature h3 {
   font-size: 18px;
   color: #000;
 }
 
-.school-features.text-dark .feature p,
-.school-instructors.text-dark .feature p {
+.service-features.text-dark .feature p {
   color: #000;
   opacity: .5;
 }
 
-.school-features.text-dark .feature p:last-child,
-.school-instructors.text-dark .feature p:last-child {
+.service-features.text-dark .feature p:last-child {
   margin-bottom: 0;
 }
 
-.school-features.text-dark .feature .icon > span:before,
-.school-instructors.text-dark .feature .icon > span:before {
+.service-features.text-dark .feature .icon > span:before {
   font-size: 50px;
   margin-left: 0;
   color: #007bff;
 }
 
-.img-bg {
-  background-size: cover;
+.mt-0 {
+  padding-top: 10px;
+  text-align: center;
 }
 
-@media (max-width: 991.98px) {
-  .img-md-fluid {
-    background-image: url('../img/people1.jpg');
-    max-width: 100%;
-  }
+.img-bg {
+  background-size: cover;
 }
 
 #secondButton {
@@ -482,11 +424,6 @@ header .navbar.navbar-light .nav-link.active {
 
 #space {
   height: 200px;
-}
-
-.instructor-meta {
-  margin-bottom: 10px;
-  color: #999999 !important;
 }
 
 .btn, .form-control {

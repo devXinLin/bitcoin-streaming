@@ -21,19 +21,18 @@ import Coinbase from "./select_market/Coinbase/Coinbase";
 import Bitflyer from "./select_market/Bitflyer/Bitflyer";
 
 // import React-Router module
-import { BrowserRouter, Route, Switch, NavLink, Redirect} from 'react-router-dom';
-import { Layout, Menu, Icon, Spin, Row, Col, Button } from 'antd';
+import { Route, Switch, NavLink } from 'react-router-dom';
+import { Layout, Menu, Icon, Col } from 'antd';
 import axios from "axios";
 import io from 'socket.io-client';
-const { Header, Sider, Content } = Layout;
+const { Sider, Content } = Layout;
 const SubMenu = Menu.SubMenu;
-const MenuItemGroup = Menu.ItemGroup;
 
 
 class Dashboard extends Component {
 
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             current: 'appstore',
             collapsed: false,
@@ -116,14 +115,14 @@ class Dashboard extends Component {
         this.setState({
           collapsed: !this.state.collapsed,
         });
-    }
+    };
 
     handleClick = (e) => {
         console.log('click ', e);
         this.setState({
           current: e.key,
         });
-    }
+    };
     
 
     render() { 

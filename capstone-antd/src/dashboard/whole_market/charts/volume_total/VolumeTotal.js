@@ -5,19 +5,17 @@ import VolumeTotal_USD from "./VolumeTotal_USD";
 import VolumeTotal_JPY from "./VolumeTotal_JPY";
 // import EUR version of Volume in Total - default version
 import VolumeTotal_EUR from "./VolumeTotal_EUR";
-import {Table, Icon, Row, Col, Button, Radio, Affix} from 'antd';
-import { BrowserRouter, Route, Switch, NavLink} from 'react-router-dom';
+import { Row, Col, Button, Affix} from 'antd';
+import {  Route, Switch, NavLink} from 'react-router-dom';
 
 export default class VolumeTotal extends React.Component {
 
     state = {
         top: 10,
         bottom: 10,
-      }
+      };
 
     render() {
-
-        const ButtonGroup = Button.Group;
 
         return (
             <div>

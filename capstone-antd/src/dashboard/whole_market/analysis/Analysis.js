@@ -4,7 +4,7 @@ import "../../css/exchangeList.css";
 import Analysis_Exchange from "./Analysis_Exchange";
 // import Currency version
 import Analysis_Currency from "./Analysis_Currency";
-import {Table, Icon, Row, Col, Button, Radio, Affix} from 'antd';
+import { Row, Col, Button, Affix} from 'antd';
 import { Switch, Route, NavLink } from 'react-router-dom';
 
 export default class Analysis extends React.Component {
@@ -12,7 +12,7 @@ export default class Analysis extends React.Component {
     state = {
         top: 10,
         bottom: 10,
-      }
+      };
 
     render() {
 
